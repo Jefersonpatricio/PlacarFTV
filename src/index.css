@@ -145,4 +145,45 @@ main {
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
     }
+
+
+}
+
+@media (max-width: 680px),
+(max-height: 730px) and (orientation: landscape) {
+    .card {
+        width: 40vw;
+        height: 38vw;
+        border-radius: 12px;
+    }
+
+    .title {
+        margin-top: 2rem;
+    }
+
+    .count {
+        color: #1d2507;
+        font-size: 8rem;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 680px),
+(max-height: 730px) and (orientation: portrait) {
+    .card {
+        border-radius: 12px;
+        width: 40%;
+        height: 40%;
+    }
+
+    .title {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .count {
+        color: #1d2507;
+        font-size: 8rem;
+        font-weight: 600;
+    }
 }

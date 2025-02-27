@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 
 export default function Card({ team }) {
   const [count, setCount] = useState(0);
-  const locked = count === 10 ? true : false;
+  const locked = count === 40 ? true : false;
 
   useEffect(() => {
     const handleKeyDown = (event) => {
